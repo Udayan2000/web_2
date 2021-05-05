@@ -1,0 +1,120 @@
+.logo{
+    float: left;
+    height: 175px;
+    width:300px;
+    position: absolute;
+    top: 25px;
+    left: 500px;
+}
+h1 {
+    font-size:4em;
+    box-sizing: border-box;
+    width:480px;
+    height: 90px;
+    top:110px;
+    border-radius: 100px;
+    position: relative;
+    left: 435px;
+    background-color:lawngreen;
+}
+.tablet{
+    float: left;
+    height: 175px;
+    width:300px;
+    position: absolute;
+    top: 25px;
+    left: 90px;
+}
+.image{
+    float: right;
+    height: 175px;
+    width:300px;
+    position: absolute;
+    top: 25px;
+    right: 90px;
+}
+ul>li{
+     display: inline-block;
+     font-size: 2em;
+     width: 301px;
+     height: 65px;
+     padding: 5px;
+     position: relative;
+     top:70px;
+     
+}
+.list{
+ 
+     font-size: 25px;
+     top: 500px;
+     position:absolute;
+     right:160px;
+     list-style-type:square;
+
+
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("shop.jpg");
+    background-size:cover;
+    overflow:scroll; 
+}
+h1:hover{
+    color:red;
+}
+.first{
+    float: left;
+    height: 235px;
+    width:350px;
+    position: absolute;
+    bottom: 100px;
+    left: 75px;
+}
+.second{
+    float: right;
+    height: 235px;
+    width:350px;
+    position: absolute;
+    bottom: 100px;
+    right: 75px;
+}
+.description{
+  
+    font-size: 20px;
+    width: 301px;
+    position: fixed;
+    bottom:150px;
+    left:95px;
+}
+.sort{
+    font-size: 20px;
+    width: 300px;
+    position: fixed;
+    bottom:150px;
+    right:105px;
+}
+.copyright{
+    font-size: 45px;
+     bottom: 30px;
+     position:absolute;
+     left:90px;
+     color:red;
+}
+.description{
+    display: none;
+}
+
+
+.first:hover + .description{
+    color:green;
+    display: block;
+   
+}
+.sort{
+    display: none;
+}
+.second:hover + .sort{
+    color:green;
+    display: block;
+}
